@@ -17,21 +17,13 @@ This is a Python 3 project (I  use Python 3.6). Your default `python` command mi
 
 `git`, `python3` and `pip3` must already be installed.
 ```bash
-$git clone https://github.com/frakman1/lifx-lan-gui.git
-$cd lifx-lan-gui/
-$pip3 install appJar
-$pip3 install lifxlan
-$pip3 install colour
-$pip3 install configobj
-$pip3 install numpy
-$pip3 install mss
-$pip3 install opencv-python
-$pip3 install scipy
-$pip3 install pillow
+git clone https://github.com/frakman1/lifx-lan-gui.git &
+cd lifx-lan-gui/ &
+pip3 install appJar lifxlan colour configobj numpy mss opencv-python scipy pillow
 ```
 *hint: If you get errors installing the above due to some missing dependency, then try downloading its precompiled package from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/) and pip install its .whl file. e.g.:*<br>
 ```bash
-$pip3 install netifaces‑0.10.6‑cp36‑cp36m‑win_amd64.whl
+pip3 install netifaces‑0.10.6‑cp36‑cp36m‑win_amd64.whl
 ```
 
 ### 2022 Update
@@ -50,7 +42,7 @@ pyenv local 3.6.5
 
 # Run Instructions
 ```bash
-$python3 lights.py
+python3 lights.py
 ```
 
 # Supported Platforms
